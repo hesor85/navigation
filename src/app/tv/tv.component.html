@@ -1,0 +1,8 @@
+<div class="wrapper">
+  <ul>
+    <li *ngFor="let show of tvShowList"><a [routerLink]="['./', show.id]">{{show.title}}</a></li>
+  </ul>
+  <div>
+    <router-outlet></router-outlet>
+  </div>
+</div>

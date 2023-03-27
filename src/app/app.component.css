@@ -1,0 +1,23 @@
+.active {
+  color:brown;
+}
+
+nav {
+  background-color: #212121;
+}
+
+ul {
+  padding: 16px;
+  margin: 0;
+}
+
+li {
+  display: inline;
+}
+
+a {
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  padding: 8px;
+}
